@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "React Chrome Extensions",
+    "description": "Display short app name."
+  },
+  "app_fullname": {
+    "message": "React Chrome Extensions Sample",
+    "description": "Display app name."
+  },
+  "app_desc": {
+    "message": "리액트로 작성된 크롬 확장프로그램 샘플",
+    "description": "Display app description"
+  }
+}
