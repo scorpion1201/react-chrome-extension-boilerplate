@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "short_name": "React Chrome Extensions",
+  "name": "React Chrome Extensions Sample",
+  "version": "1.0.0",
+  "description": "React Chrome Extensions Sample",
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png",
+    "256": "icon/256.png"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "*://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon/48.png",
+    "default_popup": "popup.html"
+  }
+}
